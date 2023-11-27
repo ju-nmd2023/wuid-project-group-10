@@ -131,3 +131,26 @@ body{
 
 /* item-detail page ends */
 
+/* shopping-cart page starts */
+
+#mycart{
+    margin-top: 30px;
+}
+
+.mycart-left{
+    background-color: white;
+    display: inline-block;
+}
+
+.mycart-right{
+    background-color: white;
+    display: inline-block;
+}
+
+.hat {
+    display: block;
+}
+
+.balls{
+    display: block;
+}
