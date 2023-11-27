@@ -6,7 +6,7 @@
 body{
     background-color: #f5f2f5;
 }
-/* item detail page */
+/* item detail page starts */
 #itemdetail{
     text-align: center;
 }
@@ -43,19 +43,22 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 24px;
     letter-spacing: 2%;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .itemdetail-right h4{
     font-style: italic;
     font-weight: 500;
     font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 .right-small-box{
     width:56%;
     margin: 0% 22%;
     background-color: #802d34;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .right-small-box p{
@@ -76,21 +79,26 @@ body{
 }
 
 .selection{
-    margin-top: 20px;
-    margin-left: 30px;
-    /* vertical-align: center; */
+    margin-top: 30px;
+    align-items: center;
+    height: 80px;
 }
 
 .cart{
     background-color: black;
     width:35%;
     display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    margin-right: 5%;
 }
 
 .cart p{
     color: white;
+    font-size: 90%;
     padding: 0 8px;
     display: inline-block;
+    line-height: 40px;
 }
 
 .cart img{
@@ -104,10 +112,22 @@ body{
     background-color: black;
     display: inline-block;
     background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-position: center center;
+    vertical-align: middle;
+    margin-right: -1%;
 }
 
+.number{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    line-height: 40px;
+}
 
+/* item-detail page ends */
 
