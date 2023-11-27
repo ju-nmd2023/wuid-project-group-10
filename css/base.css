@@ -1,27 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
 body{
     background-color: #f5f2f5;
 }
-
+/* item detail page */
 #itemdetail{
     text-align: center;
 }
 .itemdetail-left{
-    width:805px;
-    height:800px;
+    width:40%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     display: inline-block;
-    margin-left: 8%;
-    margin-right: 5%;
-
+    /* margin-left: 5%; */
+    margin-right:5%;
 }
 
+
+.itemdetail-left img{
+    vertical-align: middle;
+    width: 80%;
+    height: 90%;
+    padding: 10%;
+}
+
+
 .itemdetail-right{
-    width:400px;
-    height:800px;
+    width:40%;
+    height:100%;
     background-color: rgb(255, 255, 255);
     display: inline-block;
     /* margin-left: 55px; */
-    margin-right:8%;
+    /* margin-right:5%; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+.itemdetail-right h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 2%;
+}
+
+.itemdetail-right h4{
+    font-style: italic;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.right-small-box{
+    width:56%;
+    margin: 0% 22%;
+    background-color: #802d34;
+    margin-bottom: 50px;
+}
+
+.right-small-box p{
+    font-size: 14px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    padding: 20px 20px;
+    line-height: 23px;
+    letter-spacing: 2%;
+}
+
+.itemabout span{
+    margin-right: 5%;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.selection{
+    margin-top: 20px;
+    margin-left: 30px;
+    /* vertical-align: center; */
+}
+
+.cart{
+    background-color: black;
+    width:35%;
+    display: inline-block;
+}
+
+.cart p{
+    color: white;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.cart img{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.below{
+    background-image: url(../image/below.png);
+    background-color: black;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    background-position: center center;
 }
 
 
