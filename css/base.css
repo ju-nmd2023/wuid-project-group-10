@@ -135,22 +135,150 @@ body{
 
 #mycart{
     margin-top: 30px;
+    /* margin-left: 50px; */
 }
 
 .mycart-left{
     background-color: white;
     display: inline-block;
+    align-items: center;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.mycart-left h2{
+    line-height: 100px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    font-size: 35px;
 }
 
 .mycart-right{
     background-color: white;
+    margin-right: 5%;
+    width: 38%;
+    float: right;
+}
+
+.middle-colum{
     display: inline-block;
+    margin-left: 20px;
+    height: 250px;
+    width: 230px;
+}
+
+.middle-colum p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-colum p:first-child{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.middle-colum p:nth-child(2){
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.middle-colum p:last-child{
+    font-weight: 600;
 }
 
 .hat {
-    display: block;
+    float: left;
 }
 
+
 .balls{
+    float: left;
+}
+
+.goods-number{
+    background-image: url(../image/number.png);
+    height: 55px;
+    width: 65px;
+    background-repeat: no-repeat;
+    background-position: -18px -10px;
+    padding-top:25px ;
+    background-size: 90%;
+}
+
+.goodsone {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.trashbin{
+    background-image: url(../image/trashbin.png);
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
     display: block;
+    margin-top: 60px;
+    background-size: 90%;
+}
+
+.like {
+    background-image: url(../image/like.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width:35px;
+    display: block;
+    margin-top: 10px;
+    background-size: 90%;
+}
+
+.columlast{
+    display: inline-block;
+    margin-right: 30px;
+    float: right;
+}
+
+.share{
+    background-image: url(../image/share.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 240px;
+    background-size: 80%;
+    margin-left: 60%;
+    margin-bottom: 20px;
+}
+
+.rightupper div{
+    margin-left: 7%;
+    /* margin-top: 5%; */
+    padding-top: 3%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mycart-right div span:nth-child(2){
+    float: right;
+    margin-right: 3%;
+}
+
+.total-price span{
+    font-size: 24px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+}
+
+#checkout{
+    background-image: url(../image/checkout.png);
+    background-repeat: no-repeat;
+    width: 430px;
+    height: 100px;
+    background-size: 90%;
+    margin: 60px auto;
+    margin-bottom: 15px;
+}
+
+.rightupper{
+    height: 100px;
 }
