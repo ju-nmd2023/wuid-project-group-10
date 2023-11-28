@@ -165,7 +165,6 @@ body{
     display: inline-block;
     margin-left: 20px;
     height: 250px;
-    width: 230px;
 }
 
 .middle-colum p{
@@ -204,7 +203,7 @@ body{
     background-repeat: no-repeat;
     background-position: -18px -10px;
     padding-top:25px ;
-    background-size: 90%;
+    background-size: 95%;
 }
 
 .goodsone {
@@ -262,11 +261,12 @@ body{
     margin-right: 3%;
 }
 
-.total-price span{
+.total-price {
     font-size: 24px;
     font-weight: 750;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 7%;
+    margin-top: 3%;
 }
 
 #checkout{
@@ -274,11 +274,209 @@ body{
     background-repeat: no-repeat;
     width: 430px;
     height: 100px;
-    background-size: 90%;
-    margin: 60px auto;
+    margin: 50px auto;
     margin-bottom: 15px;
 }
 
 .rightupper{
     height: 100px;
+}
+
+/* shopping cart ends */
+
+/* payment page starts */
+
+.left-box{
+    background-color: white;
+    width: 38%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.invoice{
+    width: 50%;
+    margin-left: 5%;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+}
+
+.invoice1{
+    background-image: url(../image/1.png);
+    width: 60px;
+    height: 60px;
+    background-repeat:no-repeat ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.invoice h2{
+    display: inline-block;
+    line-height: 64px;
+    vertical-align: middle; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.invoice-wrapper{
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    /* justify-content: center; */
+}
+
+
+.invoice-wrapper input{
+    width: 80%;
+    height: 48px;
+    margin-bottom: 25px;
+    border: 1px solid #dbd8d7;
+    line-height: 48px;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.invoice-wrapper .zipcode{
+    width: 20%;
+    display: inline-block;
+}
+
+.invoice-wrapper .city {
+    width:60%;
+    display: inline-block;
+}
+
+.hattwo {
+    width:28%;
+}
+
+.middle-columtwo {
+    height:170px;
+}
+
+.trashbintwo, .liketwo {
+    background-size: 70%;
+}
+
+.middle-columtwo p:nth-child(3) {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.kr{
+    float: right;
+    margin-right:30px ;
+}
+
+.payment-left-middle{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.payment-left-last{
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.payment-left-last h2{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment-left-last p{
+    float: right;
+    margin-right: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.goodsonetwo {
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.paymend-method{
+    width: 50%;
+    margin-left: 5%;
+    background-color: white;
+    float: left;
+    margin-top: 30px;
+}
+
+
+.two{
+    background-image: url(../image/two.png);
+    width: 60px;
+    height: 60px;
+    background-repeat:no-repeat ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 30px;   
+}
+
+.paymend-method h2{
+    display: inline-block;
+    line-height: 64px;
+    vertical-align: middle; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.method-paypal, .method-visa, .method-applepay, .method-mastercard{
+    background-image: url(../image/R.png);
+    background-size: 90%;
+    width: 100px;
+    height: 70px;
+    background-repeat:no-repeat ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-left: 30px;   
+    background-position: center center; 
+}
+
+.method-visa{
+    background-image: url(../image/visa.png);
+    background-size: 80%;
+}
+
+.method-applepay {
+    background-image: url(../image/apple-pay-logo.png);
+    background-size: 80%;
+}
+
+.method-mastercard{
+    background-image: url(../image/Mastercard-Logo-2016-2020.png);
+    background-size: 80%;
+}
+
+.payment {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gopay{
+    background-image: url(../image/gotopayment.png);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    width: 430px;
+    height: 100px;
+    margin: 30px auto;
+    margin-bottom: 15px;
 }
