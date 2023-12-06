@@ -10,6 +10,7 @@ body{
 #itemdetail{
     text-align: center;
 }
+
 .itemdetail-left{
     width:40%;
     height: 90%;
@@ -149,13 +150,41 @@ body{
     line-height: 40px;
 }
 
+@media screen and (max-width:1000px) {
+    .itemdetail-left{
+        width:70%;
+        margin: 0 auto;
+    }
+
+    .itemdetail-left img{
+        width: 40%;
+        height: 45%;
+        padding-bottom: 0;
+    }
+    
+.itemdetail-right{
+    width:70%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right-small-box{
+    width:80%;
+    margin: 0% 10%;
+    background-color: #802d34;
+    margin-bottom: 30px;
+}
+}
+
 /* item-detail page ends */
 
 /* shopping-cart page starts */
 
 #mycart{
     margin-top: 30px;
-    /* margin-left: 50px; */
 }
 
 .mycart-left{
@@ -236,7 +265,6 @@ body{
     height: 35px;
     width: 35px;
     background-repeat: no-repeat;
-    /* display: inline-block; */
     display: block;
     margin-top: 60px;
     background-size: 90%;
@@ -270,7 +298,6 @@ body{
 
 .rightupper div{
     margin-left: 7%;
-    /* margin-top: 5%; */
     padding-top: 3%;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -279,6 +306,10 @@ body{
 .mycart-right div span:nth-child(2){
     float: right;
     margin-right: 3%;
+}
+
+.mycart-right a{
+    text-decoration: none;
 }
 
 .total-price {
@@ -290,16 +321,40 @@ body{
 }
 
 #checkout{
-    background-image: url(../image/checkout.png);
-    background-repeat: no-repeat;
-    width: 430px;
-    height: 100px;
-    margin: 50px auto;
     margin-bottom: 15px;
+    font-weight: 600;
+    background-color: black;
+    margin: 30px auto;
+    width: 81%;
+    height: 52px;
+    text-align: center;
+    font-size: 23px;
+    color: #ffffff;
+    border-radius: 2px; 
+    line-height: 52px;
 }
 
 .rightupper{
     height: 100px;
+}
+
+
+@media screen and (max-width: 1080px) {
+    .mycart-left{
+        display: block;
+        width: 90%;
+    }
+
+    .mycart-right{
+        display: block;
+        float: none;
+        margin-left: 5%;
+        width: 90%;
+    }  
+
+    .rightupper{
+        height: 130px;
+    }
 }
 
 /* shopping cart ends */
@@ -345,7 +400,6 @@ body{
     text-align: center;
     margin-top: 48px;
     margin-bottom: 48px;
-    /* justify-content: center; */
 }
 
 
@@ -431,7 +485,7 @@ input::placeholder{
     margin-bottom: 10px;
 }
 
-.paymend-method{
+.payment-method{
     width: 50%;
     margin-left: 5%;
     background-color: white;
@@ -451,7 +505,7 @@ input::placeholder{
     margin-left: 30px;   
 }
 
-.paymend-method h2{
+.payment-method h2{
     display: inline-block;
     line-height: 64px;
     vertical-align: middle; 
@@ -491,17 +545,49 @@ input::placeholder{
     margin: 10px 0;
 }
 
+.payment-method a{
+    text-decoration: none;
+}
+
 .gopay{
-    background-image: url(../image/gotopayment.png);
-    background-repeat: no-repeat;
-    background-size: 95%;
-    width: 430px;
-    height: 100px;
-    margin: 30px auto;
     margin-bottom: 15px;
+    font-weight: 600;
+    background-color: black;
+    margin: 30px auto;
+    width: 81%;
+    height: 52px;
+    text-align: center;
+    font-size: 23px;
+    color: #ffffff;
+    border-radius: 2px; 
+    line-height: 52px;
+}
+
+@media screen and (max-width: 933px) {
+    .left-box{
+        margin-left: 5%;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .goodsonetwo{
+        margin-bottom: 100px;
+        margin-top: 5%;
+    }
+    .invoice{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .payment-method{
+        font-size: 15px;
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
 /* payment page finished */
+
 
 /* payment-detail page start */
 
@@ -512,9 +598,9 @@ input::placeholder{
     overflow: hidden;
 }
 
-.detail-page p{
-    /* margin-left: 50px; */
-    /* padding-top: 40px; */
+.detail-page .detail-page-header{
+    margin-left: 10%;
+    margin-top: 3%;
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -558,7 +644,6 @@ input::placeholder{
 .securitynumber, .expiredate{
     margin-bottom: 10px;
     margin-top: 10px;
-    /* margin-left: 10%; */
 }
 
 .expire{
@@ -591,18 +676,20 @@ input::placeholder{
     background-color: black;
     margin: 30px auto;
     width: 81%;
-    height: 40px;
-    margin-bottom: 15px;
+    height: 52px;
     text-align: center;
     font-size: 23px;
     border-radius: 2px; 
 }
 
 #finalclick p{
-    color: #924192;
-    text-decoration: none;
+    color: #ffffff;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 52px;
+}
+
+.detail-page a{
+    text-decoration: none;
 }
 
 /* payment detail ends */
