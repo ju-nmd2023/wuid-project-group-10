@@ -58,19 +58,19 @@
             <h2>Invoice & Delivery Information</h2>
         </div>
         <div class="invoice-wrapper">
-            <input class="emil" type="email" placeholder="Emil">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Street">
+            <input id="email" type="email" placeholder="Email">
+            <input id="guestname" type="text" placeholder="Name">
+            <input id="street" type="text" placeholder="Street">
             <p>
-                <input class="zipcode" type="text" placeholder="Zip Code">
-                <input class="city" type="text" placeholder="City">
+                <input id="zipcode" type="text" placeholder="Zip Code">
+                <input id="city" type="text" placeholder="City">
             </p>
             <p>
-                <input class="zipcode" type="text" placeholder="+ 46">
-                <input class="city" type="text" placeholder="Mobile">
+                <input id="phonenumberone"type="text" placeholder="+ 46">
+                <input id="phonenumbertwo" type="text" placeholder="Mobile">
             </p>
         </div>
-    </div>
+    </div> 
 
     <div class="payment-method">
         <div>
@@ -83,7 +83,8 @@
             <div class="method-applepay"></div>
             <div class="method-mastercard"></div>
         </div>
-        <a href="./payment-details.html"><div class="gopay">Go to payment</div></a> 
+        <a href="./payment-details.html"><div id="gopay">Go to payment</div></a> 
     </div>
+    <script src="./js/payment.js"></script>
 </body>
 </html>

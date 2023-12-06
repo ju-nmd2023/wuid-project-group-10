@@ -421,12 +421,12 @@ input::placeholder{
     opacity: 0.5;
 }
 
-.invoice-wrapper .zipcode{
+.invoice-wrapper #zipcode, #phonenumberone{
     width: 20%;
     display: inline-block;
 }
 
-.invoice-wrapper .city {
+.invoice-wrapper #city, #phonenumbertwo {
     width:60%;
     display: inline-block;
 }
@@ -549,7 +549,7 @@ input::placeholder{
     text-decoration: none;
 }
 
-.gopay{
+#gopay{
     margin-bottom: 15px;
     font-weight: 600;
     background-color: black;
