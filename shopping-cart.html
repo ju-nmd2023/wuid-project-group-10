@@ -13,32 +13,42 @@
         <div class="mycart-left">
             <h2>My Cart</h2>
             <hr><br>
-            <div class="goodsone">
-                <img class="hat" src="./image/hat.png" alt="hat">
-                <div class="middle-colum">
-                    <p>Santa Hat</p>
-                    <p>Red</p>
-                    <div class="goods-number"></div>
-                    <p>119 Kr</p>
-                </div>
-                <div class="columlast">
-                    <div class="trashbin"></div>
-                    <div class="like"></div>
-                </div>  
-            </div>
-            <div class="goodsone">
-                <img class="balls" src="./image/balls.png" alt="balls">
-                <div class="middle-colum">
-                    <p>Regular Ornaments <br> (24-pack)</p>
-                    <p>Red/Green/White</p>
-                    <div class="goods-number"></div>
-                    <p>199 Kr</p>
-                </div>
-                <div class="columlast">
-                    <div class="trashbin"></div>
-                    <div class="like"></div>
-                </div>  
-            </div>
+            <input type="checkbox" id="all">select all
+            <br><br>
+            <ol class="all">
+                <li>
+                    <input type="checkbox">
+                        <div class="goodsone">
+                        <img class="hat" src="./image/hat.png" alt="hat">
+                        <div class="middle-colum">
+                            <p>Santa Hat</p>
+                            <p>Red</p>
+                            <div class="goods-number"></div>
+                            <p>119 Kr</p>
+                        </div>
+                        <div class="columlast">
+                            <div class="trashbin"></div>
+                            <div class="like"></div>
+                        </div>  
+                </li>
+    
+                <li>
+                    <input type="checkbox">
+                        <div class="goodsone">
+                            <img class="balls" src="./image/balls.png" alt="balls">
+                            <div class="middle-colum">
+                                <p>Regular Ornaments <br> (24-pack)</p>
+                                <p>Red/Green/White</p>
+                                <div class="goods-number"></div>
+                                <p>199 Kr</p>
+                            </div>
+                            <div class="columlast">
+                                <div class="trashbin"></div>
+                                <div class="like"></div>
+                            </div>  
+                        </div>
+                </li>
+            </ul>
             <div class="share"></div>
         </div>
 
@@ -61,5 +71,6 @@
             <a href="./payment.html"><div id="checkout"> CHECKOUT</div></a>
         </div>
     </div>
+<script src="./js/shopping-cart.js"></script>
 </body>
 </html>
