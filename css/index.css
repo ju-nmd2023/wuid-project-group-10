@@ -22,7 +22,7 @@ main {
 
 /* HEADER */
 
-.img-header {
+#img-header {
     position: relative;
     background-image: url(../image/index-header-img.png);
     background-size: cover;
@@ -34,77 +34,72 @@ main {
 
 .cart-header {
     position: absolute;
-    margin-top: 14vh;
-    right: 4.5vw; 
+    margin-top: 6.8%;
+    right: 5%; 
     width: 55px; 
     height: 56px; 
     background-image: url(../image/cart-index.png); 
-    background-repeat: no-repeat; 
-    cursor: pointer; 
+    background-repeat: no-repeat;  
     z-index: 1; 
     display: block;
 }
 
-.cart-header a {
-    display: block;
-}
 
 .heart-header {
     position: absolute;
-    margin-top: 14.5vh;
-    right: 4.5vw; 
+    margin-top: 7%;
+    right: 5%; 
     width: 55px; 
     height: 56px; 
     background-image: url(../image/heart.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
-    padding-left: 4.3vw;
+    margin-right: 4%;
 }
 
 .search-header {
     position: absolute;
-    margin-top: 14.5vh;
-    right: 4.5vw; 
+    margin-top: 7%;
+    right: 5%; 
     width: 55px; 
     height: 56px; 
     background-image: url(../image/search.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
-    padding-left: 8.6vw;
+    margin-right: 8%;
 }
 
 .menu-header {
     position: absolute;
-    margin-top: 15vh;
-    left: 11.5vw; 
+    margin-top: 8%;
+    left: 10%; 
     width: 55px; 
     height: 56px; 
     background-image: url(../image/menu-popout.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
-    padding-left: 8.6vw;
+    margin-right: 4%;
 }
 
 .home-header {
     position: absolute;
-    margin-top: 14.5vh;
-    left: 15.6vw; 
+    margin-top: 7.7%;
+    left: 14%; 
     width: 55px; 
     height: 56px; 
     background-image: url(../image/home.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
-    padding-left: 8.6vw;
 }
 
 .sign-in-header {
     position: absolute;
-    margin-top: 4.9vh;
-    right: 5.2vw;
+    margin-top: 4%;
+    right: 5%;
     z-index: 1; 
     display: block;
 }
@@ -112,6 +107,7 @@ main {
 .sign-in-text {
     font-size: 22pt;
     color: white;
+    font-family: 'Inria Serif', serif;
 }
 
 .jingleshop-logo-text {
@@ -119,7 +115,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8.6vh;
+    margin-top: 5%;
 }
 
 .jingleshop-logo-text img {
@@ -148,7 +144,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 6.4vh;
+    margin-top: 4%;
 }
 
 .header-a {
@@ -196,17 +192,37 @@ main {
 
     .search-header, .cart-header, .heart-header, .menu-header, .home-header {
         scale: 60%;
+    }
+    .search-header, .heart-header {
+       display: none;
+    }
 
+    .menu-header {
+        margin-top: 7.7%;
+        left: 10%;
+    }
+
+    .home-header {
+        margin-top: 12%;
+        left: 10%;
     }
 
     .jingleshop-logo-text {
         scale: 70%;
+    }
+
+    .sign-in-text {
+        font-size: 12pt;
     }
 }
 
 @media screen and (max-width: 650px) {
     .second-header-text {
         font-size: 48pt;
+    }
+
+    .jingleshop-logo-text {
+        scale: 40%;
     }
 
 }
@@ -472,10 +488,16 @@ main {
 
 
 /* HEADER */
-
 #product-header {
-    height: 80%;
+    position: relative;
+    background-image: url(../image/product-page-header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 1000px;
 }
+
 .img-header2 {
     position: relative;
     background-image: url(../image/product-page-header.png);
@@ -535,117 +557,35 @@ main {
 #product-page-products-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: auto;
+    margin: 10%;
 }
 
 .white-background-product-page {
     background-color: white;
-    padding: 6%;
-    padding-bottom: 20%;
-    margin: 3%;
+    margin: 8%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 6%;
 }
 
-#testing {
-    margin-top: 40px;
+.details {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18pt;
+    color: black;
+    margin-bottom: 2%;
 }
 
-#custom-ornaments {
-    background-image: url(../image/product-ornament1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    margin-bottom: 300px;
-    margin-right: 300px;
+.product-name, .product-price {
+    font-family: 'Inria Serif', serif;
+    text-decoration: none;
+    color: black;
+    line-height: 200%;
 }
 
-#glass-ornaments {
-    background-image: url(../image/product-ornament2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    color: white;
-}
-
-#regular-ornaments {
-    background-image: url(../image/product-ornament3.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#big-nutcracker {
-    background-image: url(../image/product-nutcracker-big.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    margin-bottom: 300px;
-    margin-right: 300px;
-}
-
-#small-nutcracker {
-    background-image: url(../image/product-nutcracker-small.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#gingerbread {
-    background-image: url(../image/product-gingerbread.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#wrapping-paper {
-    background-image: url(../image/product-wrapping-paper.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    margin-bottom: 300px;
-    margin-right: 300px;
-}
-
-#santa-hat {
-    background-image: url(../image/product-santa-hat.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#mittens {
-    background-image: url(../image/product-mittens.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-#santa-costume {
-    background-image: url(../image/product-santa-costume.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-width: 100%;
-    min-height: 100%;
-    margin-bottom: 300px;
-    margin-right: 300px;
+a {
+    text-decoration: none;
 }
 
 /* FOOTER */
