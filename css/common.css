@@ -8,6 +8,8 @@
 
 #white-header {
     background: white;
+    padding-top: 2%;
+    padding-bottom: 6%;
 }
 
 .cart-header {
@@ -23,6 +25,18 @@
     display: block;
 }
 
+.cart-header-black {
+    position: absolute;
+    margin-top: 6.8%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/cart-black.png); 
+    background-repeat: no-repeat;  
+    z-index: 1; 
+    display: block;
+}
+
 .heart-header {
     position: absolute;
     margin-top: 7%;
@@ -30,6 +44,19 @@
     width: 55px; 
     height: 56px; 
     background-image: url(../image/heart.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 4%;
+}
+
+.heart-header-black {
+    position: absolute;
+    margin-top: 7%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/heart-black.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
@@ -49,6 +76,19 @@
     margin-right: 8%;
 }
 
+.search-header-black {
+    position: absolute;
+    margin-top: 7%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/search-black.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 8%;
+}
+
 .menu-header {
     position: absolute;
     margin-top: 8%;
@@ -62,6 +102,19 @@
     margin-right: 4%;
 }
 
+.menu-header-black {
+    position: absolute;
+    margin-top: 8%;
+    left: 10%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/menu-popout-black.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 4%;
+}
+
 .home-header {
     position: absolute;
     margin-top: 7.7%;
@@ -69,6 +122,18 @@
     width: 55px; 
     height: 56px; 
     background-image: url(../image/home.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+}
+
+.home-header-black {
+    position: absolute;
+    margin-top: 7.7%;
+    left: 14%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/home-black.png);
     background-repeat: no-repeat;
     z-index: 1; 
     display: block;
@@ -99,14 +164,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .jingleshop-logo-text-black {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+    margin-top: 5%;
 }
 
 .jingleshop-logo-text img {
@@ -186,35 +251,35 @@ a {
         text-align: center;
     }
 
-    .search-header, .cart-header, .heart-header, .menu-header, .home-header {
+    .search-header, .cart-header, .heart-header, .menu-header, .home-header, .search-header-black, .cart-header-black, .heart-header-black, .menu-header-black, .home-header-black {
         scale: 60%;
     }
-    .search-header, .heart-header {
+    .search-header, .heart-header, .search-header-black, .heart-header-black {
        display: none;
     }
 
-    .menu-header {
+    .menu-header, .menu-header-black {
         margin-top: 7.7%;
         left: 10%;
     }
 
-    .home-header {
+    .home-header, .home-header-black {
         margin-top: 12%;
         left: 10%;
     }
 
-    .jingleshop-logo-text {
+    .jingleshop-logo-text, .jingleshop-logo-text-black {
         scale: 70%;
     }
 
-    .sign-in-text {
+    .sign-in-text, .sign-in-text-black {
         font-size: 12pt;
     }
 }
 
 @media screen and (max-width: 650px) {
 
-    .jingleshop-logo-text {
+    .jingleshop-logo-text, .jingleshop-logo-text-black {
         scale: 40%;
     }
 
