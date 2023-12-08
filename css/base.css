@@ -422,7 +422,7 @@ body{
 /* payment page starts */
 
 .paymentpage{
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .left-box{
