@@ -6,6 +6,10 @@
     padding-bottom: 2%;
 }
 
+#white-header {
+    background: white;
+}
+
 .cart-header {
     position: absolute;
     margin-top: 6.8%;
@@ -84,12 +88,25 @@
     font-family: 'Inria Serif', serif;
 }
 
+.sign-in-text-black {
+    font-size: 22pt;
+    color: black;
+    font-family: 'Inria Serif', serif;
+}
+
 .jingleshop-logo-text {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     
+}
+
+.jingleshop-logo-text-black {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
 }
 
 .jingleshop-logo-text img {
