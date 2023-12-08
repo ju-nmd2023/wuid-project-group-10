@@ -1,6 +1,121 @@
 /* HEADER */
 
+#red-header {
+    background-color: #802D34;
+}
 
+.cart-header {
+    position: absolute;
+    margin-top: 6.8%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/cart-index.png); 
+    background-repeat: no-repeat; 
+    cursor: pointer; 
+    z-index: 1; 
+    display: block;
+}
+
+
+.heart-header {
+    position: absolute;
+    margin-top: 7%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/heart.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 4%;
+}
+
+.search-header {
+    position: absolute;
+    margin-top: 7%;
+    right: 5%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/search.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 8%;
+}
+
+.menu-header {
+    position: absolute;
+    margin-top: 8%;
+    left: 10%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/menu-popout.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+    margin-right: 4%;
+}
+
+.home-header {
+    position: absolute;
+    margin-top: 7.7%;
+    left: 14%; 
+    width: 55px; 
+    height: 56px; 
+    background-image: url(../image/home.png);
+    background-repeat: no-repeat;
+    z-index: 1; 
+    display: block;
+}
+
+.sign-in-header {
+    position: absolute;
+    margin-top: 4%;
+    right: 5%;
+    z-index: 1; 
+    display: block;
+}
+
+.sign-in-text {
+    font-size: 22pt;
+    color: white;
+    font-family: 'Inria Serif', serif;
+}
+
+.jingleshop-logo-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.jingleshop-logo-text img {
+    width: 400px;
+    height: auto;
+}
+
+.header-links {
+    font-family: Inter, sans-serif; 
+    list-style: none;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.header-a {
+    color: white;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 35px;
+    text-align: center;
+}
 
 /* FOOTER */
 

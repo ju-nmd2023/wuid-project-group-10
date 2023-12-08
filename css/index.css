@@ -39,8 +39,7 @@ main {
     width: 55px; 
     height: 56px; 
     background-image: url(../image/cart-index.png); 
-    background-repeat: no-repeat; 
-    cursor: pointer; 
+    background-repeat: no-repeat;  
     z-index: 1; 
     display: block;
 }
@@ -193,17 +192,37 @@ main {
 
     .search-header, .cart-header, .heart-header, .menu-header, .home-header {
         scale: 60%;
+    }
+    .search-header, .heart-header {
+       display: none;
+    }
 
+    .menu-header {
+        margin-top: 7.7%;
+        left: 10%;
+    }
+
+    .home-header {
+        margin-top: 12%;
+        left: 10%;
     }
 
     .jingleshop-logo-text {
         scale: 70%;
+    }
+
+    .sign-in-text {
+        font-size: 12pt;
     }
 }
 
 @media screen and (max-width: 650px) {
     .second-header-text {
         font-size: 48pt;
+    }
+
+    .jingleshop-logo-text {
+        scale: 40%;
     }
 
 }
@@ -549,6 +568,25 @@ main {
     padding-bottom: 6%;
 }
 
+.details {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18pt;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.product-name, .product-price {
+    font-family: 'Inria Serif', serif;
+    text-decoration: none;
+    color: black;
+    line-height: 200%;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* FOOTER */
 
