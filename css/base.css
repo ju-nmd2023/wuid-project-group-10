@@ -1,3 +1,8 @@
+/* 	writing order
+    1. float/display
+	2. margin，width，height,  border， padding， background-color
+	3.文字样式 */
+
 *{
     margin: 0;
     padding:0;
@@ -6,6 +11,7 @@
 
 body{
     background-color: #f5f2f5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* item detail page starts */
 #itemdetail{
@@ -13,10 +19,10 @@ body{
 }
 
 .itemdetail-left{
+    display: inline-block;
     width:40%;
     height: 90%;
     background-color: rgb(255, 255, 255);
-    display: inline-block;
     margin-right:5%;
 }
 
@@ -30,24 +36,22 @@ body{
 
 
 .itemdetail-right{
+    display: inline-block;
+    vertical-align: middle;
     width:40%;
     height:100%;
     background-color: rgb(255, 255, 255);
-    display: inline-block;
-    /* margin-left: 55px; */
-    /* margin-right:5%; */
-    vertical-align: middle;
     text-align: center;
 }
 
 .itemdetail-right h2{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    letter-spacing: 2%;
     margin-bottom: 10px;
     margin-top: 20px;
     /* animation: name  duration timing-function delay iteration-count; */
     animation: itemname 4s linear 0s infinite;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2%;
+    font-size: 24px;
 }
 
 @keyframes itemname{
@@ -70,10 +74,10 @@ body{
 }
 
 .itemdetail-right h4{
+    margin-bottom: 20px;
     font-style: italic;
     font-weight: 500;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
 }
 
 .right-small-box{
@@ -84,13 +88,13 @@ body{
 }
 
 .right-small-box p{
-    font-size: 14px;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 250;
     padding: 20px 20px;
     line-height: 23px;
     letter-spacing: 2%;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 250;
 }
 
 .itemabout span{
@@ -101,38 +105,38 @@ body{
 }
 
 .selection{
-    margin-top: 30px;
     align-items: center;
+    margin-top: 30px;
     height: 80px;
 }
 
 .cart{
+    display: inline-block;
     background-color: black;
     width:35%;
-    display: inline-block;
     vertical-align: middle;
     height: 40px;
     margin-right: 5%;
 }
 
 .cart p{
+    display: inline-block;
+    padding: 0 8px;
+    line-height: 40px;
     color: white;
     font-size: 90%;
-    padding: 0 8px;
-    display: inline-block;
-    line-height: 40px;
 }
 
 .cart img{
-    width: 20%;
     display: inline-block;
+    width: 20%;
     vertical-align: middle;
 }
 
 .below{
+    display: inline-block;
     background-image: url(../image/below.png);
     background-color: black;
-    display: inline-block;
     background-repeat: no-repeat;
     height: 40px;
     width: 40px;
@@ -142,10 +146,10 @@ body{
 }
 
 .number{
+    display: inline-block;
     height:40px;
     width: 40px;
     background-color: black;
-    display: inline-block;
     color: white;
     vertical-align: middle;
     line-height: 40px;
@@ -164,10 +168,10 @@ body{
     }
     
 .itemdetail-right{
+    display: inline-block;
     width:70%;
     height:100%;
     background-color: rgb(255, 255, 255);
-    display: inline-block;
     vertical-align: middle;
     text-align: center;
 }
@@ -189,8 +193,8 @@ body{
 }
 
 .mycart-left:nth-child(1) {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .all li{
@@ -198,8 +202,8 @@ body{
 }
 
 .mycart-left{
-    background-color: white;
     display: inline-block;
+    background-color: white;
     align-items: center;
     margin-left: 5%;
     width: 50%;
@@ -208,16 +212,15 @@ body{
 .mycart-left h2{
     line-height: 100px;
     margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 750;
     font-size: 35px;
 }
 
 .mycart-right{
+    float: right;
     background-color: white;
     margin-right: 5%;
     width: 38%;
-    float: right;
 }
 
 .middle-colum{
@@ -231,15 +234,15 @@ body{
 }
 
 .middle-colum p:first-child{
-    font-weight: 600;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .middle-colum p:nth-child(2){
-    font-size: 13px;
-    font-weight: 300;
     padding-top: 8px;
     padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 .middle-colum p:last-child{
@@ -271,28 +274,28 @@ body{
 }
 
 .trashbin{
+    display: block;
     background-image: url(../image/trashbin.png);
     height: 35px;
     width: 35px;
     background-repeat: no-repeat;
-    display: block;
     margin-top: 60px;
     background-size: 90%;
 }
 
 .like {
+    display: block;
     background-image: url(../image/like.png);
     background-repeat: no-repeat;
     height: 35px;
     width:35px;
-    display: block;
     margin-top: 10px;
     background-size: 90%;
 }
 
 .columlast{
-    margin-right: 30px;
     float: right;
+    margin-right: 30px;
 }
 
 .share{
@@ -322,25 +325,25 @@ body{
 }
 
 .total-price {
+    margin-left: 7%;
+    margin-top: 3%;
     font-size: 24px;
     font-weight: 750;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 7%;
-    margin-top: 3%;
 }
 
 #checkout{
     margin-bottom: 15px;
-    font-weight: 600;
     background-color: black;
     margin: 30px auto;
     width: 81%;
     height: 52px;
     text-align: center;
-    font-size: 23px;
     color: #ffffff;
     border-radius: 2px; 
     line-height: 52px;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 .rightupper{
@@ -394,9 +397,9 @@ body{
     }
     
 .middle-colum{
+    display: inline-block;
     margin-left: 20px;
     height: 250px;
-    display: inline-block;
 }
 
 .columlast{
@@ -418,28 +421,28 @@ body{
 /* payment page starts */
 
 .left-box{
+    float: right;
     background-color: white;
     width: 38%;
     margin-right: 5%;
-    float: right;
     margin-top: 30px;
     padding-top: 20px;
 }
 
 .invoice{
+    float: left;
     width: 50%;
     margin-left: 5%;
     background-color: white;
-    float: left;
     margin-top: 30px;
 }
 
 .invoice1{
+    display: inline-block;
     background-image: url(../image/1.png);
     width: 60px;
     height: 60px;
     background-repeat:no-repeat ;
-    display: inline-block;
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 30px;
