@@ -9,82 +9,85 @@
     <link rel="stylesheet" href="./css/common.css">
 </head>
 <body>
-    <div class="left-box">
-        <div class="goodsone goodsonetwo">
-            <img class="hat hattwo" src="./image/hat.png" alt="hat">
-            <div class="middle-colum middle-columtwo">
-                <p>Santa Hat</p>
-                <p>Red</p>
-                <p>1</p>
-                <p>119 Kr</p>
+    <div class="paymentpage">
+        <div class="left-box">
+            <div class="goodsone goodsonetwo">
+                <img class="hat hattwo" src="./image/hat.png" alt="hat">
+                <div class="middle-colum middle-columtwo">
+                    <p>Santa Hat</p>
+                    <p>Red</p>
+                    <p>1</p>
+                    <p>119 Kr</p>
+                </div>
+                <div class="columlast">
+                    <div class="trashbin trashbintwo"></div>
+                    <div class="like liketwo"></div>
+                </div>  
             </div>
-            <div class="columlast">
-                <div class="trashbin trashbintwo"></div>
-                <div class="like liketwo"></div>
-            </div>  
-        </div>
-        <div class="goodsone goodsonetwo">
-            <img class="balls hattwo" src="./image/balls.png" alt="balls">
-            <div class="middle-colum middle-columtwo">
-                <p>Regular Ornaments<br> (24-pack)</p>
-                <p>Red/Green/White</p>
-                <p>1</p>
-                <p>199 Kr</p>
+            <div class="goodsone goodsonetwo">
+                <img class="balls hattwo" src="./image/balls.png" alt="balls">
+                <div class="middle-colum middle-columtwo">
+                    <p>Regular Ornaments<br> (24-pack)</p>
+                    <p>Red/Green/White</p>
+                    <p>1</p>
+                    <p>199 Kr</p>
+                </div>
+                <div class="columlast">
+                    <div class="trashbin trashbintwo"></div>
+                    <div class="like liketwo"></div>
+                </div>  
             </div>
-            <div class="columlast">
-                <div class="trashbin trashbintwo"></div>
-                <div class="like liketwo"></div>
-            </div>  
+            <hr>
+            <div class="payment-left-middle">
+                <span>Regular price</span>
+                <span class="kr">318 kr</span>
+            </div>
+            <div class="payment-left-middle">
+                <span>Freight</span>
+                <span class="kr">Free standard delivery <br>available at checkout.</span>
+            </div>
+            <hr>
+            <div class="payment-left-last">
+                <h2>Total price</h2>
+                <p>318 Kr<p>
+            </div>
         </div>
-        <hr>
-        <div class="payment-left-middle">
-            <span>Regular price</span>
-            <span class="kr">318 kr</span>
-        </div>
-        <div class="payment-left-middle">
-            <span>Freight</span>
-            <span class="kr">Free standard delivery <br>available at checkout.</span>
-        </div>
-        <hr>
-        <div class="payment-left-last">
-            <h2>Total price</h2>
-            <p>318 Kr<p>
+    
+        <div class="invoice">
+            <div>
+                <div class="invoice1"></div>
+                <h2>Invoice & Delivery Information</h2>
+            </div>
+            <div class="invoice-wrapper">
+                <input id="email" type="email" placeholder="Email">
+                <input id="guestname" type="text" placeholder="Name">
+                <input id="street" type="text" placeholder="Street">
+                <p>
+                    <input id="zipcode" type="text" placeholder="Zip Code">
+                    <input id="city" type="text" placeholder="City">
+                </p>
+                <p>
+                    <input id="phonenumberone"type="text" placeholder="+ 46">
+                    <input id="phonenumbertwo" type="text" placeholder="Mobile">
+                </p>
+            </div>
+        </div> 
+    
+        <div class="payment-method">
+            <div>
+                <div class="two"></div>
+                <h2>Choose Your Payment Method</h2>
+            </div>
+            <div class="payment">
+                <div class="method-paypal"></div>
+                <div class="method-visa"></div>
+                <div class="method-applepay"></div>
+                <div class="method-mastercard"></div>
+            </div>
+            <a href="./payment-details.html"><div id="gopay">Go to payment</div></a> 
         </div>
     </div>
-
-    <div class="invoice">
-        <div>
-            <div class="invoice1"></div>
-            <h2>Invoice & Delivery Information</h2>
-        </div>
-        <div class="invoice-wrapper">
-            <input id="email" type="email" placeholder="Email">
-            <input id="guestname" type="text" placeholder="Name">
-            <input id="street" type="text" placeholder="Street">
-            <p>
-                <input id="zipcode" type="text" placeholder="Zip Code">
-                <input id="city" type="text" placeholder="City">
-            </p>
-            <p>
-                <input id="phonenumberone"type="text" placeholder="+ 46">
-                <input id="phonenumbertwo" type="text" placeholder="Mobile">
-            </p>
-        </div>
-    </div> 
-
-    <div class="payment-method">
-        <div>
-            <div class="two"></div>
-            <h2>Choose Your Payment Method</h2>
-        </div>
-        <div class="payment">
-            <div class="method-paypal"></div>
-            <div class="method-visa"></div>
-            <div class="method-applepay"></div>
-            <div class="method-mastercard"></div>
-        </div>
-        <a href="./payment-details.html"><div id="gopay">Go to payment</div></a> 
-    </div>
+    
     <script src="./js/payment.js"></script>
 </body>
 </html>

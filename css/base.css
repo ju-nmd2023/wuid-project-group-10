@@ -416,9 +416,14 @@ body{
 }
 }
 
+
 /* shopping cart ends */
 
 /* payment page starts */
+
+.paymentpage{
+    /* overflow: hidden; */
+}
 
 .left-box{
     float: right;
@@ -537,7 +542,7 @@ input::placeholder{
 
 .goodsonetwo {
     padding-bottom: 0;
-    margin-bottom: 10px;
+    margin-bottom: 8%;
 }
 
 .payment-method{

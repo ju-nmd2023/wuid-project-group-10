@@ -52,31 +52,3 @@ goPay.addEventListener('click', function (event) {
     else {alert('thank you for your submission')}
 })
 
-
-
-//shorpping cart
-
-let theAll = document.querySelector("#all");
-let theGoods = document.querySelectorAll("#all input");
-
-theAll.onclick = function(){
-    for(let item = 0;item <theAll.clientHeight;item++){
-        theAll[item].checked = theAll.checked
-    }
-}
-
-for(let item = 0; item < theAll.clientHeight; item++){
-    theAll[item]. onclick=theCheaked
-}
-
-function theCheaked(){
-    let count = 0
-    for(let item = 0; item < theGoods.length; item++){
-        if(theGoods[item].checked){
-            count++
-        }
-    }
-    if(count === theGoods.length){
-        theGoods.checked = true
-    } else {theAll.checked = false}
-}
