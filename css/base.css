@@ -663,7 +663,7 @@ input::placeholder{
     }
 
     .goodsone{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .share{
@@ -677,7 +677,7 @@ input::placeholder{
         font-size: 15px;
     }
     .goodsonetwo {
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
 }
 
