@@ -452,7 +452,6 @@ body{
     display: inline-block;
     line-height: 64px;
     vertical-align: middle; 
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .invoice-wrapper{
@@ -476,18 +475,18 @@ body{
 
 input::placeholder{
     padding-left: 10px;
-    font-weight: 600;
     opacity: 0.5;
+    font-weight: 600;
 }
 
 .invoice-wrapper #zipcode, #phonenumberone{
-    width: 20%;
     display: inline-block;
+    width: 20%;
 }
 
 .invoice-wrapper #city, #phonenumbertwo {
-    width:60%;
     display: inline-block;
+    width:60%;
 }
 
 .hattwo {
@@ -503,8 +502,8 @@ input::placeholder{
 }
 
 .middle-columtwo p:nth-child(3) {
-    font-weight: 700;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .kr{
@@ -516,7 +515,6 @@ input::placeholder{
     margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
@@ -527,16 +525,14 @@ input::placeholder{
 
 .payment-left-last h2{
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .payment-left-last p{
     float: right;
     margin-right: 30px;
+    margin-bottom: 30px;
     font-size: 24px;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 30px;
 }
 
 .goodsonetwo {
@@ -545,20 +541,20 @@ input::placeholder{
 }
 
 .payment-method{
+    float: left;
     width: 50%;
     margin-left: 5%;
     background-color: white;
-    float: left;
     margin-top: 30px;
 }
 
 
 .two{
+    display: inline-block;
     background-image: url(../image/two.png);
     width: 60px;
     height: 60px;
     background-repeat:no-repeat ;
-    display: inline-block;
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 30px;   
@@ -568,16 +564,15 @@ input::placeholder{
     display: inline-block;
     line-height: 64px;
     vertical-align: middle; 
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .method-paypal, .method-visa, .method-applepay, .method-mastercard{
+    display: inline-block;
     background-image: url(../image/R.png);
     background-size: 90%;
     width: 100px;
     height: 70px;
     background-repeat:no-repeat ;
-    display: inline-block;
     vertical-align: middle;
     margin-top: 20px;
     margin-left: 30px;   
@@ -610,16 +605,16 @@ input::placeholder{
 
 #gopay{
     margin-bottom: 15px;
-    font-weight: 600;
     background-color: black;
     margin: 30px auto;
     width: 81%;
     height: 52px;
     text-align: center;
-    font-size: 23px;
     color: #ffffff;
     border-radius: 2px; 
     line-height: 52px;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 933px) {
@@ -651,17 +646,16 @@ input::placeholder{
 /* payment-detail page start */
 
 .detail-page{
+    overflow: hidden;
     background-color: white;
     margin: 20px auto;
     width: 70%;
-    overflow: hidden;
 }
 
 .detail-page .detail-page-header{
     margin-left: 10%;
     margin-top: 3%;
     padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 100;
 }
@@ -682,12 +676,12 @@ input::placeholder{
 
 
 .method-visatwo, .method-mastercardtwo{
+    display: inline-block;
     background-image: url(../image/R.png);
     background-size: 60%;
     width: 70px;
     height: 40px;
     background-repeat:no-repeat ;
-    display: inline-block;
     vertical-align: middle;
     margin-top: 5px;
     margin-left: 10%;   
@@ -726,9 +720,9 @@ input::placeholder{
 }
 
 .dateandcode{
+    overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 #finalclick{
@@ -778,16 +772,15 @@ input::placeholder{
 }
 
 .confirmed-page h2{
-    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
     font-size: 40px;
     font-weight: 750;
-    padding-bottom: 30px;
 }
 
 .confirmed-page p{
     padding: 0 20%;
+    padding-bottom: 40px;
     line-height: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 40px;
 }
