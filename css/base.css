@@ -166,7 +166,7 @@ body {
 }
 
 #drop-down-content {
-  display: inline-block;
+  display: none;
   position: absolute;
   background-color: black;
   min-width: 40px;
